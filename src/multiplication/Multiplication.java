@@ -30,8 +30,8 @@ public class Multiplication {
         System.out.println("Давайте решим 5 примеров с умножением!");
         // Когда значение tries не ровно 5, то цикл работает. Если = 5 то перестаёт работать
         while(tries != 5) {
-            num[0] = randomNum.nextInt(10); //Две ячейки, каждому из двух придаётся два случайных числа при помощи целого индекса
-            num[1] = randomNum.nextInt(10); 
+            num[0] = randomNum.nextInt(8)+2; //Две ячейки, каждому из двух придаётся два случайных числа при помощи целого индекса
+            num[1] = randomNum.nextInt(8)+2; 
             System.out.print(num[0] + " * " + num[1] + " = "); // Вид наших примеров
             int userInput = scan.nextInt();
             tries = tries + 1; //1+ в переменную tries
